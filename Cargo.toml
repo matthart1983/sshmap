@@ -1,0 +1,12 @@
+[package]
+name = "sshmap"
+version = "0.1.0"
+edition = "2021"
+description = "SSH connection manager TUI — browse, group, health-check, and connect"
+
+[dependencies]
+ratatui = "0.27"
+crossterm = "0.27"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
